@@ -130,6 +130,7 @@ Finalmente se diseño el siguiente diagrama Ladder para realizar el prototipo:
 Para la parte física, se consulto un video que mencionaba la elaboración de una cinta transportadora casera a partir de un motor DC [6] junto con la base de la máquina etiquetadora automática mencionada al inicio del documento. Para el PLC se hizo uso de un microcontrolador esp32.
 
 ## Conclusiones
+- El HMI es esencial para tener la retroalimentación acerca del estado del sistema. Se pueden conocer las variables, si se usan timer, se pueden conocer los tiempos entre procesos y también permite que el usuario no tenga que usar un ambiente físico, sino que puede interactuar con la interfaz para optimizar su proceso de logística y monitoreo de un proceso industrial.
 - 
 
 ## Referencias
