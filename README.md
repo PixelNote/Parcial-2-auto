@@ -9,9 +9,9 @@ Hay una empresa de lácteos que se dedica a la producción de derivados de la le
 2.	Proporcionar el HMI con las etapas del proceso.
 3.	Realizar un prototipo funcional.
 ## Proceso de ideación
-Cómo parte del proceso inicial, se consultaron algunas referencias para facilitar el proceso del diseño del prototipo funcional. Se tuvo la idea de realizar el diseño usando una cinta transportadora que siempre estaba en movimiento, ya que usualmente, las cadenas de suministro están en funcionamiento continuo [2]. Con la cinta transportadora siempre funcionando, la siguiente tarea era diseñar la lógica para el funcionamiento del sistema de etiqueta. 
+Cómo parte del proceso inicial, se consultaron algunas referencias para facilitar el proceso del diseño del prototipo funcional. Se tuvo la idea de realizar el diseño usando una cinta transportadora que siempre estaba en movimiento, ya que usualmente, las cadenas de suministro están en funcionamiento continuo [1]. Con la cinta transportadora siempre funcionando, la siguiente tarea era diseñar la lógica para el funcionamiento del sistema de etiqueta. 
 
-Así que se buscaron algunas referencias de máquinas de etiqueta que existen en el mercado. Nos llamo la atención la máquina etiquetadora triton-júpiter ya que esta presenta el proceso de etiquetado de forma vertical [1]. Este sistema de etiquetado vertical favorecía el proceso con la cinta transportadora y su método de funcionamiento era simple para un futuro prototipado.
+Así que se buscaron algunas referencias de máquinas de etiqueta que existen en el mercado. Nos llamo la atención la máquina etiquetadora triton-júpiter ya que esta presenta el proceso de etiquetado de forma vertical [2]. Este sistema de etiquetado vertical favorecía el proceso con la cinta transportadora y su método de funcionamiento era simple para un futuro prototipado.
 
 Teniendo la idea de la cinta y la etiquetadora. El siguiente paso fue diseñar el proceso de detección de las cajas para la activación de la etiquetadora. Así que se opto por incluir los sensores en medio de la cinta transportadora con un espacio entre ellos para así realizar la activación y desactivación del proceso de etiquetado aprovechando que la cinta transportadora nunca se va a detener.
 
@@ -108,12 +108,38 @@ Con el diagrama Ladder hecho para todas las etapas del proceso de automatizació
   <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/1423f4ca-ae22-45df-b5a6-d53f7609bfce" alt="Estado 5" width="310"/>
   <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/aef1a94f-7b92-4a6d-a467-2ef14d1d3c3f" alt="Estado 6" width="300"/>
 </p>
+Como se puede observar en las anteriores imágenes, el sistema se comporta correctamente con los estados establecidos y la lógica encargada del funcionamiento del sistema corresponde con el planteamiento inicial de la solución. Por lo tanto, esta interfaz gráfica permite ver los estados del ciclo de trabajo del proceso automatizado de etiqueta de cajas de forma correcta, cumpliendo con los requerimientos de los entregables.
 
+## Proceso de prototipado
+Para diseñar el diagrama ladder para el funcionamiento del prototipo funcional, se realizo un diagrama de secuencia para tener una idea del proceso de acción del sistema automatizado. Así que se definió la siguiente tabla de variables:
 
+<p align="center">
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/dee3087f-81eb-4c95-9d5f-65851f2739a8" alt="Inicial HMI" width="800"/>
+</p>
+Con las variables establecidas, se diseñó el siguiente diagrama de secuencia que refleja el funcionamiento del prototipo del sistema automático de etiquetado de cajas:
+
+<p align="center">
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/1c2cf72d-36ae-41c7-a65e-2cced60264cb" alt="Inicial HMI" width="800"/>
+</p>
+
+Finalmente se diseño el siguiente diagrama Ladder para realizar el prototipo:
+<p align="center">
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/366d8db6-7626-4da9-86d4-2ee3ee6fdc5d" alt="Inicial HMI" width="800"/>
+</p>
+
+Para la parte física, se consulto un video que mencionaba la elaboración de una cinta transportadora casera a partir de un motor DC [6] junto con la base de la máquina etiquetadora automática mencionada al inicio del documento. Para el PLC se hizo uso de un microcontrolador esp32.
+
+## Conclusiones
+- 
 
 ## Referencias
 
-[1] https://beltinglab.com/noticias/que-es-una-cinta-transportadora-funcionamiento-y-aplicaciones#:~:text=El%20funcionamiento%20de%20una%20cinta,accionados%20por%20un%20motor%20el%C3%A9ctrico.
-[2] https://eurotransis.com/que-es-una-cinta-transportadora-principios-de-funcionamiento/
-[3] https://www.edrawsoft.com/es/article/what-is-ladder-diagram.html
-[4] https://ingelearn.com/temporizadores-en-tia-portal-como-funcionan/#:~:text=Un%20temporizador%20TON%2C%20tambi%C3%A9n%20llamado,cambia%20de%200%20a%201.
+[1] “¿Qué es una cinta transportadora? Funcionamiento y aplicacio...” Core ceramics. Accedido el 1 de abril de 2024. [En línea]. Disponible: https://beltinglab.com/noticias/que-es-una-cinta-transportadora-funcionamiento-y-aplicaciones#:~:text=El%20funcionamiento%20de%20una%20cinta,accionados%20por%20un%20motor%20eléctrico.
+
+[2] “Etiquetadora Triton-Júpiter”. Ferplast. Accedido el 2 de abril de 2024. [En línea]. Disponible: https://www.fer-plast.com/es/productos/embalaje/impresoras-y-etiquetado/dispensadores-de-etiquetas-y-etiquetadoras/etiquetadora-tritone-giove-detail
+
+[3] “¿Qué es el diagrama escalera?”. Edrawsoft. Accedido el 6 de abril de 2024. [En línea]. Disponible: https://www.edrawsoft.com/es/article/what-is-ladder-diagram.html
+
+[4] “Temporizador en TIA PORTAL”. Accedido el 6 de abril de 2024. [En línea]. Disponible: https://ingelearn.com/temporizadores-en-tia-portal-como-funcionan/#:~:text=Un%20temporizador%20TON,%20también%20llamado,cambia%20de%200%20a%201.
+
+[5] Muy Fácil De Hacer. Proyectos | Cinta Transportadora Casera (muy fácil de hacer). (12 de marzo de 2016). Accedido el 6 de abril de 2024. [Video en línea]. Disponible: https://www.youtube.com/watch?v=7UsmJgHU6wk
