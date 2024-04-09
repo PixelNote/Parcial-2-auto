@@ -131,13 +131,13 @@ Para la parte física, se consulto un video que mencionaba la elaboración de un
 La creación del sistema en físico se desarrolló con materiales principalmente fáciles de obtener, como lo son el cartón industrial, cartón paja, silicona caliente para unir piezas, además de tubos PVC y palillos para realziar diferentes mecanismos giratorios. A lo largo de la creación se realizaron diferentes cambios debido a varios fallos repentinos, en primer lugar, los motores adquiridos no tenían la suficiente potencia para hacer girar la primera banda de la cinta transportadora, la cual se construyó en foamy negro, y es que su peso y fricción ocasionaban que el motor se detuviera por completo, para solucionar este problema se reemplazó por una banda realizada con tela, aunque esta vez ya no se detenía el motor, al agregar una caja sucedía de nuevo el problema anterior, por lo que se optó por cambiar al material más ligero que se encontró, una cinta de decoración plástica, su peso y su fricción eran adecuadas para permitir al motor seguir girando aún cuando habían hasta tres cajas a la vez en la banda.
 
 <p align="center">
-  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/97065279/644cd0a3-2d4c-40ae-b2f9-f7eb18e4cc77" alt="Inicial HMI" width="800"/>
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/97065279/644cd0a3-2d4c-40ae-b2f9-f7eb18e4cc77" alt="Inicial HMI" width="500"/>
 </p>
 
 Además del problema con la banda giratoria, también nos enfrentamos a un desafío enorme y era la creación de la etiquetadora automático, y es que el material elegido para representar las etiquetas (papel fotográfico adhesivo) ocasionaba que el motor que accionaba dicho sistema no girara, ya que necesitaba más fuerza para poder enrollar un papel tan grueso, así que se hicieron estrategias manuales en las que se despegó la parte adhesiva de las zonas que iban pegadas a los rodillos giratorios, de modo se que se reduciera la fricción.
 Lastimosamente el sistema no pudo ser probado en su totalidad de manera automatizada debido a que nos enfrentamos al problema de que los motores se consumían toda la corriente proveniente del Esp32, de modo que los otros componentes como los sensores dejaban de funcionar, se optó por utilización de baterías, lo cual en principio sería de ayuda para solucionar el error anteriormente dicho, sin embargo, aunque se trabajó arduamente para hacer funcionar el sistema, no se pudo encontrar solución al mayor de los problemas, y es que los motores con alimentación distinta al resto del sistema, no se activaban ni por los switches ni por los sensores.
 <p align="center">
-  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/97065279/755bd388-288c-478b-bb13-c077bd09f69f" alt="Inicial HMI" width="800"/>
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/97065279/755bd388-288c-478b-bb13-c077bd09f69f" alt="Inicial HMI" width="500"/>
 </p>
 
 ## Conclusiones
