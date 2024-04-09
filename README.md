@@ -94,10 +94,20 @@ Con el diagrama Ladder hecho para todas las etapas del proceso de automatizació
 <p align="center">
   <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/9a652a4b-d79e-4a54-bdc9-5061e9247956" alt="Inicial HMI" width="600"/>
 </p>
-### 
 
+### Primeros 3 estados
+<p align="center">
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/a958aaa0-6810-4921-912d-757448d068e2" alt="Estado 1" width="300"/>
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/a340f852-a4b2-4abc-83ac-226d6060df4f" alt="Estado 2" width="295"/>
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/92ffc134-7ca4-4442-83a2-6794e9dd38fd" alt="Estado 3" width="300"/>
+</p>
 
-
+## Últimos 2 estados y estado inicial
+<p align="center">
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/0c6028d5-866c-4398-ba98-9b4ba156498c" alt="Estado 4" width="300"/>
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/1423f4ca-ae22-45df-b5a6-d53f7609bfce" alt="Estado 5" width="310"/>
+  <img src="https://github.com/PixelNote/Parcial-2-auto/assets/81392047/aef1a94f-7b92-4a6d-a467-2ef14d1d3c3f" alt="Estado 6" width="300"/>
+</p>
 
 
 
